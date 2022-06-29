@@ -10,7 +10,7 @@ export default function InboxScreen() {
 
 	useEffect(() => {
 		dispatch(fetchTasks());
-	}, []);
+	}, [dispatch]);
 
 	if(error) {
 		return (
