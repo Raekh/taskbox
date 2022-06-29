@@ -45,3 +45,11 @@ LongTitle.args = {
 		title: longTitleString,
 	}
 }
+
+export const NoTitle = Template.bind({})
+NoTitle.args = {
+	task: {
+		...Default.args.task,
+		title: ''
+	}
+}
